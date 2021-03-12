@@ -11,11 +11,11 @@ import { products } from '../products';
 
 export class ProductDetailsComponent implements OnInit {
   product;
-  
+
   /*.......*/
 
   constructor(
-    private Route: 'ActivatedRoute',
+    private Route:  ActivatedRoute,
   ) { }
 
   ngOnInit() {
