@@ -13,7 +13,9 @@ export class ProductDetailsComponent implements OnInit {
   product;
   /*.......*/
 
-  constructor() { }
+  constructor(
+    private Route: 'ActivatedRoute',
+  ) { }
 
   ngOnInit() {
   }
